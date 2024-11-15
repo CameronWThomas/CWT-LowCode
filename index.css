@@ -96,6 +96,7 @@ header{
     /* flex-basis: 100%; */
     flex: 1;
     /* border: 1px green solid; */
+    padding: 0.5em;
 }
 .font-small{
     font-size: 0.5em;
