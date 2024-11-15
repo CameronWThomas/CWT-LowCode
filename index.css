@@ -1,0 +1,153 @@
+/* Coolors reference */
+/* https://coolors.co/1b1f1b-e8c547-717744-7b7554-cad5ca */
+
+
+/* Fonts */
+
+.tilt-prism-cwt {
+  font-family: "Tilt Prism", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+.uncial-antiqua-regular {
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.texturina-cwt {
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.pirata-one-regular {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.jacquard-12-regular {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.unifrakturmaguntia-regular {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.pixelify-sans-cwt {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Styles */
+body{
+    background-color: #1b1f1b;
+    color: #CAD5CA
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.root-div{
+    /* display: flex;*/
+    justify-content: center;
+    align-items: center; 
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+.content-wrapper{
+    margin: 0% 15%;
+
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px red solid; */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: 100%; */
+    flex: 1;
+    /* border: 1px green solid; */
+}
+.font-small{
+    font-size: 0.5em;
+}
+.font-medium{
+    font-size: 1.5em;
+}
+.font-large{
+    font-size: 2em;
+}   
+.font-xlarge{
+    font-size: 3em;
+}
+
+.col-20{
+    flex: 20%;
+}
+.col-80{
+    flex: 70%;
+}
+.col-100{
+    flex: 100%;
+}
+
+.fancy-border-exterior{
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: #717744;
+    border-right-color: #717744;
+    border-bottom-color: #44412e;
+    border-left-color: #44412e;
+}
+.fancy-border-middle{
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: #717744;
+    border-right-color: #717744;
+    border-bottom-color: #717744;
+    border-left-color: #717744;
+}
+.fancy-border-interior{
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: #44412e;
+    border-right-color: #44412e;
+    border-bottom-color: #717744;
+    border-left-color: #717744;
+}
+.fancy-border-r-interior{
+    border-right: 1px solid #717744;
+}
+.fancy-border-r-exterior{
+    border-right: 1px solid #44412e;
+}
+  
