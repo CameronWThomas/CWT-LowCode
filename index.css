@@ -1,127 +1,113 @@
 /* Coolors reference */
 /* https://coolors.co/1b1f1b-e8c547-717744-7b7554-cad5ca */
 
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    /* tablets and desktop */
+    html {
+        font-size: 16px;
+    }
+    .nav-wrapper {
+        /* Add styles if needed */
+    }
+    .nav-header {
+        /* Add styles if needed */
+    }
+    .nav-links {
+        /* Add styles if needed */
+    }
+    .nav-links > li {
+        /* list-style-type: none; */
+    }
+}
 
-/* Fonts */
-
-.tilt-prism-cwt {
-  font-family: "Tilt Prism", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "XROT" 0,
-    "YROT" 0;
+@media screen and (max-width: 767px) {
+    /* phones */
+    html {
+        font-size: 32px;
+    }
+    .nav-wrapper {
+        padding: 0px !important; /* Fixed typo */
+    }
+    .nav-header {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2vh;
+        flex-direction: column; /* Arrange items in a column */
+        gap: 2vh; /* Add spacing between items */
+    }
+    .nav-links > li {
+        list-style-type: none;
+    }
 }
-.uncial-antiqua-regular {
-    font-family: "Uncial Antiqua", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-.vt323-regular {
-    font-family: "VT323", monospace;
-    font-weight: 400;
-    font-style: normal;
-}
-.texturina-cwt {
-  font-family: "Texturina", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-.pirata-one-regular {
-    font-family: "Pirata One", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-.jacquard-24-regular {
-    font-family: "Jacquard 24", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-.jacquard-12-regular {
-    font-family: "Jacquard 12", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-.unifrakturmaguntia-regular {
-    font-family: "UnifrakturMaguntia", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-.pixelify-sans-cwt {
-    font-family: "Pixelify Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
 
 /* Styles */
-body{
+body {
     background-color: #1b1f1b;
-    color: #CAD5CA
+    color: #CAD5CA;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-.root-div{
-    /* display: flex;*/
+
+.font-xsmall {
+    font-size: 0.5rem;
+}
+.font-small {
+    font-size: 1rem;
+}
+.font-medium {
+    font-size: 1.5rem;
+}
+.font-large {
+    font-size: 2rem;
+}
+.font-xlarge {
+    font-size: 3rem;
+}
+
+.root-div {
     justify-content: center;
-    align-items: center; 
-    /* height: 100vh;
-    width: 100vw; */
+    align-items: center;
 }
 
-.content-wrapper{
-    margin: 0% 15%;
-
+.content-wrapper {
+    margin: 0% 10%;
 }
+
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    /* border: 1px red solid; */
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    /* flex-basis: 100%; */
     flex: 1;
-    /* border: 1px green solid; */
     padding: 0.5em;
 }
-.font-small{
-    font-size: 0.5em;
-}
-.font-medium{
-    font-size: 1.5em;
-}
-.font-large{
-    font-size: 2em;
-}   
-.font-xlarge{
-    font-size: 3em;
-}
 
-.col-20{
+.col-20 {
     flex: 20%;
 }
-.col-80{
+.col-80 {
     flex: 70%;
 }
-.col-100{
+.col-100 {
     flex: 100%;
 }
 
-.fancy-border-exterior{
+.fancy-border-exterior {
     border-style: solid;
     border-width: 1px;
     border-top-color: #717744;
@@ -129,7 +115,7 @@ header{
     border-bottom-color: #44412e;
     border-left-color: #44412e;
 }
-.fancy-border-middle{
+.fancy-border-middle {
     border-style: solid;
     border-width: 1px;
     border-top-color: #717744;
@@ -137,7 +123,7 @@ header{
     border-bottom-color: #717744;
     border-left-color: #717744;
 }
-.fancy-border-interior{
+.fancy-border-interior {
     border-style: solid;
     border-width: 1px;
     border-top-color: #44412e;
@@ -145,10 +131,44 @@ header{
     border-bottom-color: #717744;
     border-left-color: #717744;
 }
-.fancy-border-r-interior{
+
+.fancy-border-r-interior {
     border-right: 1px solid #717744;
 }
-.fancy-border-r-exterior{
+.fancy-border-r-exterior {
     border-right: 1px solid #44412e;
 }
-  
+
+.section-header {
+    font-weight: bold;
+    margin: 0em 0em 1em 0;
+    border-bottom: 1px solid #44412e;
+}
+
+.section-body {
+    /* Add styles if needed */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #717744;
+    color: #CAD5CA;
+    height: 5vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    margin: 0;
+    margin-bottom: 5vh;
+    padding: 1vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+    flex-direction: column; /* Arrange items in a column */
+    gap: 2vh; /* Add spacing between items */
+}

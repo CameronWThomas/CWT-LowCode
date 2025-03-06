@@ -1,0 +1,57 @@
+
+
+/* Fonts */
+
+.tilt-prism-cwt {
+    font-family: "Tilt Prism", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "XROT" 0,
+      "YROT" 0;
+  }
+  .uncial-antiqua-regular {
+      font-family: "Uncial Antiqua", system-ui;
+      font-weight: 400;
+      font-style: normal;
+    }
+  .vt323-regular {
+      font-family: "VT323", monospace;
+      font-weight: 400;
+      font-style: normal;
+  }
+  .texturina-cwt {
+    font-family: "Texturina", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .pirata-one-regular {
+      font-family: "Pirata One", system-ui;
+      font-weight: 400;
+      font-style: normal;
+  }
+  .jacquard-24-regular {
+      font-family: "Jacquard 24", system-ui;
+      font-weight: 400;
+      font-style: normal;
+  }
+  .jacquard-12-regular {
+      font-family: "Jacquard 12", system-ui;
+      font-weight: 400;
+      font-style: normal;
+  }
+    
+  .unifrakturmaguntia-regular {
+      font-family: "UnifrakturMaguntia", cursive;
+      font-weight: 400;
+      font-style: normal;
+  }
+    
+  .pixelify-sans-cwt {
+      font-family: "Pixelify Sans", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
