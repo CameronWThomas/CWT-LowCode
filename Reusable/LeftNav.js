@@ -1,18 +1,20 @@
 export default class LeftNav extends HTMLElement {
+    
     connectedCallback() {
+        const rootUrl = window.location.origin;
         this.innerHTML = `<div class="fancy-border-r-interior nav-wrapper">
                                 <div class="nav-header">
                                     Linqs
                                 </div>
                                 <div class="font-medium nav-links">
                                     <li>
-                                        Home
+                                        <a href="${rootUrl}/index.html">Home</a>
                                     </li>
                                     <li>
-                                        About
+                                       <a href="${rootUrl}/blogs.html">Blogs</a>
                                     </li>
                                     <li>
-                                        Contact
+                                       <a href="${rootUrl}/projects.html">Projects</a>
                                     </li>
 
                                 </div>

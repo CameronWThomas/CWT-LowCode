@@ -52,6 +52,13 @@ body {
     color: #CAD5CA;
 }
 
+/* Remove all default anchor styling */
+a{
+    text-decoration: none;
+    color: #CAD5CA;
+
+}
+
 header {
     display: flex;
     justify-content: center;
