@@ -120,7 +120,6 @@ header {
     border-top-color: #717744;
     border-right-color: #717744;
     border-bottom-color: #44412e;
-    border-left-color: #44412e;
 }
 .fancy-border-middle {
     border-style: solid;
@@ -178,4 +177,19 @@ header {
     padding: 2vh;
     flex-direction: column; /* Arrange items in a column */
     gap: 2vh; /* Add spacing between items */
+}
+
+.small-gif{
+    height: 384px;
+    width: 512px;
+}
+
+.aura{
+    box-shadow: 0 0 100px 5px #8F98DF;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
